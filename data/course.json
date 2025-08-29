@@ -33,10 +33,11 @@
   "extra_course_numbers": "",
   "primary_course_number": "6.1810",
   "learning_resource_types": [
-    "Labs",
-    "Online Textbook",
+    "Laboratory Assignments",
+    "Open Textbooks",
     "Lecture Notes"
   ],
   "site_uid": "a062e4e8-db04-4bcd-bb1d-4d6f80c18083",
-  "site_short_id": "6.1810-fall-2023"
+  "site_short_id": "6.1810-fall-2023",
+  "site_url_path": "courses/6-1810-operating-system-engineering-fall-2023"
 }
