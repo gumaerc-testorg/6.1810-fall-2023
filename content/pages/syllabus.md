@@ -11,11 +11,11 @@ Lectures: 2 sessions / week, 1.5 hours / session
 
 ## Prerequisites
 
-[6.191/6.004 Computation Structures](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/)
+{{% resource_link "4547c838-327e-417a-861d-d6d6db4b5ec6" "6.191/6.004 Computation Structures" %}}
 
 ## Course Description
 
-This is a course on the design and implementation of operating systems and their use as a foundation for systems programming. Topics covered include virtual memory; file systems; threads; context switches; kernels; interrupts; system calls; and interprocess communication, coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, [xv6](https://en.wikipedia.org/wiki/Xv6), is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.
+This is a course on the design and implementation of operating systems and their use as a foundation for systems programming. Topics covered include virtual memory; file systems; threads; context switches; kernels; interrupts; system calls; and interprocess communication, coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, {{% resource_link "a35e34ca-97cf-498f-9a2e-4f455458030e" "xv6" %}}, is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.
 
 You may wonder why we are studying xv6, an operating system that resembles Unix v6, instead of the latest and greatest version of Linux, Windows, or BSD Unix. xv6 is big enough to illustrate the basic design and implementation ideas in operating systems. On the other hand, xv6 is far smaller than any modern production O/S, and correspondingly easier to understand. xv6 has a structure similar to many modern operating systems; once you've explored xv6 you will find that much is familiar inside kernels such as Linux.
 
@@ -41,7 +41,7 @@ To turn in each lab, run "make zipball" in your lab directory and upload the res
 
 You have a total of 72 late hours for the semester. Each hour late in excess of 72 hours will penalize your total lab grade by 1%, up to a maximum of 50%. Late hours are allocated greedily, so they are allocated to earlier labs before later labs. Due to institute regulations, late hours may not be used for the last lab (due in the last full week of classes).
 
-We suggest that you save your late hours for unexpected emergencies. For predictable situations (athletic events, deadlines in other classes, job interviews, etc.) we expect you to manage your time so as to finish assignments by the due date. If you have exhausted your late hours but nevertheless encounter an emergency that causes you to need an extension, we ask that you talk to [Student Support Services](https://studentlife.mit.edu/s3) and ask them to send us a letter supporting your request.
+We suggest that you save your late hours for unexpected emergencies. For predictable situations (athletic events, deadlines in other classes, job interviews, etc.) we expect you to manage your time so as to finish assignments by the due date. If you have exhausted your late hours but nevertheless encounter an emergency that causes you to need an extension, we ask that you talk to {{% resource_link "fcbc74c2-2c2f-4375-944f-ba2dff4b7d23" "Student Support Services" %}} and ask them to send us a letter supporting your request.
 
 ## Lecture Questions / Homeworks
 
@@ -51,7 +51,7 @@ The lecture questions / homeworks are intended to make you think about the lectu
 
 6.1810 relies on the following books:
 
-- [*xv6: A Simple, Unix-Like Teaching Operating System*](https://pdos.csail.mit.edu/6.1810/2023/xv6/book-riscv-rev3.pdf) by Russ Cox, Frans Kaashoek, and Robert Morris. 2022.
+- {{% resource_link "f33e76d0-dbfb-424d-8506-36ce9781136d" "*xv6: A Simple, Unix-Like Teaching Operating System*" %}} by Russ Cox, Frans Kaashoek, and Robert Morris. 2022.
 - *The C Programming Language, second edition* by Brian W. Kernighan and Dennis M. Ritchie. Prentice Hall, 1988. ISBN: 9780131103627
 
 ## Collaboration
@@ -64,4 +64,4 @@ Do not post your lab or homework solutions on publicly accessible web sites or f
 
 6.1810 would not exist today had it not been for a wonderful set of past TAs (Josh Cates, Austin Clements, Russ Cox, Cody Cutler, Bryan Ford, Max Krohn, Emil Sit, Jonathan Behrens, and Anish Athalye). They made this class a reality. Collectively we dedicate 6.1810 to the memory of Josh Cates; we hope that many students will be inspired by Josh's enthusiasm for operating systems.
 
-We are also grateful to the students and teaching staff at MIT (including [SIPB](https://sipb.mit.edu/)) and other schools for their many contributions.
+We are also grateful to the students and teaching staff at MIT (including {{% resource_link "79c1063e-9a67-40b0-b8b3-48c8c6da6de1" "SIPB" %}}) and other schools for their many contributions.
